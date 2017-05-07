@@ -1,8 +1,9 @@
 # crysta
 Matlab routines for crystallographic computation, including the following,
 
-1. constructor of transform matrix between fractional (fr.) and Cartesian (car.) coordinates.__
-1.1 TMfr2car -- transform matrix from fr. to car. coordinates\n
+
+1. Constructor of transform matrix between fractional (fr.) and Cartesian (car.) coordinates
+1.1 TMfr2car -- transform matrix from fr. to car. coordinates
 1.2 TMcar2fr -- transform matrix from car. to fr. coordinates__
 
 2. Extraction of time series data__
