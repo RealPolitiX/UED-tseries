@@ -2,14 +2,14 @@
 Matlab routines for crystallographic computation and analysis of time-resolved 2D diffraction time series (2014-2016). Their details are described in the following,
 
 
-#### 1. Constructor of transform matrix between fractional (fr.) and Cartesian (car.) coordinates
+### 1. Constructor of transform matrix between fractional (fr.) and Cartesian (car.) coordinates
 
 (1) TMfr2car -- transform matrix from fr. to car. coordinates
 
 (2) TMcar2fr -- transform matrix from car. to fr. coordinates
 
 
-#### 2. Extraction of time series data (2D -> 1D)
+### 2. Extraction of time series data (2D -> 1D)
 Note: The signals are averaged/accumulated over the specified ROIs
 
 (1) ROITraceAnalyze -- Extraction of time-dependent changes in ROIs from 2D stack, incl. probe normalization
@@ -17,7 +17,7 @@ Note: The signals are averaged/accumulated over the specified ROIs
 (2) ROIDecayAnalyze -- Extraction of signal decay in ROIs from 2D stack, incl. probe normalization
 
 
-#### 3. Visualiz of 2D static and time series data
+### 3. Visualiz of 2D static and time series data
 
 (1) ROIAnnotate -- 2D diffraction image with rectangular annotation of selected ROIs (regions of interest)
 
