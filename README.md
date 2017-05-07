@@ -12,11 +12,16 @@ Matlab routines for crystallographic computation, including the following,
 2. Extraction of time series data
 
 (1) ROITraceAnalyze
+
 (2) ROIDecayAnalyze
 
 
-3. Visualiz of 2D static and time series data__
+3. Visualiz of 2D static and time series data
+
 (1) ROIAnnotate -- 2D diffraction image with rectangular annotation of selected ROIs (regions of interest)
-3.2 SeriesPlot -- 2D grid plot of diffraction images (only need to select the row and column numbers)
-3.3 ROITracePlot -- Plot of spatially-aggregated time-series incl. normalization__
-3.4 ROIDecayPlot -- Plot of signal decay curves for integrated ROIs__
+
+(2) SeriesPlot -- 2D grid plot of diffraction images (only need to select the row and column numbers)
+
+(3) ROITracePlot -- Plot of spatially-aggregated time-series incl. normalization
+
+(4) ROIDecayPlot -- Plot of signal decay curves for integrated ROIs
