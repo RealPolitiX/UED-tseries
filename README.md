@@ -1,4 +1,4 @@
-# crysta
+# UED-tseries
 Matlab routines for crystallographic computation and analysis of time-resolved 2D diffraction time series (2014-2016). Their details are described in the following,
 
 
