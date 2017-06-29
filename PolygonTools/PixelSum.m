@@ -1,4 +1,6 @@
 function pcount = PixelSum(img,pxlx,pxly)
+
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     % Sum over all designated pixel values of the input image
     %
     % Input arguments
@@ -7,6 +9,7 @@ function pcount = PixelSum(img,pxlx,pxly)
     %
     % Output argument
     % pcount: integrated value of all input pixels
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
     nx = length(pxlx);
     ny = length(pxly);
