@@ -1,4 +1,5 @@
 function [xin, yin, innum] = PickPolyCoords(polyvertex,matr,matc)
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     % Generate the Cartesian coordinates within a polygon area
     %
     % Input arguments
@@ -8,6 +9,7 @@ function [xin, yin, innum] = PickPolyCoords(polyvertex,matr,matc)
     % Output arguments
     % xin, yin: x, y coordinates of the points within the polygon area
     % innum: total number of points inside the polygon
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     
     % Generate Cartesian coordinates of the meshgrid the size of the matrix
     [xall, yall] = meshgrid(1:matr,1:matc);
